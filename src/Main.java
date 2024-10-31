@@ -1,13 +1,11 @@
-import java.util.Date;
+import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("What is your name? ");
+        String name = scanner.nextLine();
 
-        Date now = new Date();
-        System.out.println(now);
-
-        for (int i = 0; i < 128; i++) {
-            System.out.printf("char: %c | Decimal: %d | Binary: %s \n", i, i, Integer.toBinaryString(i));
-        }
+        System.out.printf("Welcome, " + name + ".");
     }
 }
