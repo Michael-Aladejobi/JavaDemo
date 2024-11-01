@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,9 +15,13 @@ public class Main {
         byte year = scanner.nextByte();
         int numberOfPayment = year * 12;
 
+        scanner.close();
+
         String mortgage = Double.toString(principal * (montlyInterestRate * (Math.pow((1 + montlyInterestRate), numberOfPayment))
                 / (Math.pow((1 + montlyInterestRate), numberOfPayment)-1)));
 
         System.out.printf("Mortgage: $%s", mortgage);
     }
 }
+ 
+//Michael Aladejobi
