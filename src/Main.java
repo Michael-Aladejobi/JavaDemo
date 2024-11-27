@@ -1,27 +1,49 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+// public class Main {
+//     public static void main(String[] args) {
+//        int age;
+//        age = 0;
+//        if( age >= 18){
+//         System.out.println("Approved");
+//        }
+//        else if(age == 0)
+//        else {
+//         System.out.println("Not Approved");
+//        }
+//     }
+// }
 
-        System.out.print("Principal: ");
-        int principal = scanner.nextInt();
+// //Michael Aladejobi
 
-        System.out.print("Annual Interest Rate: ");
-        float annualInterestRate = scanner.nextFloat();
-        float montlyInterestRate = (annualInterestRate / 100) / 12;
+class Main {
 
-        System.out.print("Period (Years): ");
-        byte year = scanner.nextByte();
-        int numberOfPayment = year * 12;
+    public static void main(String args[]) {
 
-        scanner.close();
+        byte x;
 
-        String mortgage = Double.toString(principal * (montlyInterestRate * (Math.pow((1 + montlyInterestRate), numberOfPayment))
-                / (Math.pow((1 + montlyInterestRate), numberOfPayment)-1)));
+        int a = 270;
 
-        System.out.printf("Mortgage: $%s", mortgage);
+        double b = 128.128;
+
+        System.out.println("int converted to byte");
+
+        x = (byte) a;
+
+        System.out.println("a and x " + a + " " + x);
+
+        System.out.println("double converted to int");
+
+        a = (int) b;
+
+        System.out.println("b and a " + b + " " + a);
+
+        System.out.println("\ndouble converted to byte");
+
+        x = (byte) b;
+
+        System.out.println("b and x " + b + " " + x);
+
     }
+
 }
- 
-//Michael Aladejobi
