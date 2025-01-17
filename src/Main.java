@@ -1,12 +1,10 @@
-import java.util.Date;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        // Date date = new Date();
-        // System.out.println(date);
+        int[] numbers = { 1, 2, 3, 4, 5 };
 
-        String message = "Hello World";
-        System.out.println(message.length());
-
+        System.out.println("length: " + numbers.length);
+        System.out.println(Arrays.toString(numbers));
     }
 }
