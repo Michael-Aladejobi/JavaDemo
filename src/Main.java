@@ -1,14 +1,28 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] numbers = {
-                { 1, 2, 3 },
-                { 4, 5, 6 },
-                { 7, 8, 9 }
-        };
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("length: " + numbers.length);
-        System.out.println(Arrays.deepToString(numbers));
+        try {
+            System.out.print("Principal: ");
+            int principal = scanner.nextInt();
+
+            System.out.print("Annual Interest Rate: ");
+            float annualInterestRate = scanner.nextFloat();
+            annualInterestRate = annualInterestRate / 100 / 12;
+
+            System.out.print("Period (Years): ");
+            int years = scanner.nextByte();
+            years = years * 12;
+
+            double mortgage = principal * (annualInterestRate * (Math.pow((1 + annualInterestRate), years))
+                    / Math.pow((1 + annualInterestRate), years) - 1);
+            System.out.println("Mortgage: " + mortgage);
+        } catch (Exception e) {
+            System.out.println("Error: " + e);
+        }
+
+        scanner.close();
     }
 }
