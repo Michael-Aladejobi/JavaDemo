@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HotelCategorizer",
+      "request": "launch",
+      "mainClass": "HotelCategorizer",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "WordCounter",
       "request": "launch",
       "mainClass": "WordCounter",
