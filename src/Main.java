@@ -20,7 +20,7 @@ public class Main {
                     / Math.pow((1 + annualInterestRate), years) - 1);
             System.out.println("Mortgage: " + mortgage);
         } catch (Exception e) {
-            System.out.println("Error: " + e);
+            System.out.println("Error(s): " + e);
         }
 
         scanner.close();
