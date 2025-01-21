@@ -19,8 +19,8 @@ public class Main {
             double mortgage = principal * (annualInterestRate * (Math.pow((1 + annualInterestRate), years))
                     / Math.pow((1 + annualInterestRate), years) - 1);
             System.out.println("Mortgage: " + mortgage);
-        } catch (Exception e) {
-            System.out.println("Error(s): " + e);
+        } catch (Exception eee) {
+            System.out.println("Error(s): " + eee);
         }
 
         scanner.close();
