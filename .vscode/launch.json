@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenOdd",
+      "request": "launch",
+      "mainClass": "EvenOdd",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
+      "name": "MiddleChar",
+      "request": "launch",
+      "mainClass": "MiddleChar",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "MiddleCharacter",
       "request": "launch",
       "mainClass": "MiddleCharacter",
