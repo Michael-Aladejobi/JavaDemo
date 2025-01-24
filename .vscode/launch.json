@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringtoAscii",
+      "request": "launch",
+      "mainClass": "StringtoAscii",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "EvenOdd",
       "request": "launch",
       "mainClass": "EvenOdd",

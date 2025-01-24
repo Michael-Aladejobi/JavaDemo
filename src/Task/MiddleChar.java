@@ -1,3 +1,5 @@
+package Task;
+
 public class MiddleChar {
     public static void main(String[] args) {
         String words = "amazoing";

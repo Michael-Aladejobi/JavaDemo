@@ -1,5 +1,7 @@
+package Task;
+
 // Simple Java program to compute the grade of a student in CSC 403
-class StudentResultSystem{
+class StudentResultSystem {
 
     // Method to get the grade based on the score
     public static String getGrade(int score) {
