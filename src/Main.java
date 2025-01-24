@@ -10,17 +10,17 @@ public class Main {
 
             System.out.print("Annual Interest Rate: ");
             float annualInterestRate = scanner.nextFloat();
-            annualInterestRate = annualInterestRate / 100 / 12;
+            annualInterestRate = annualInterestRate / 100 / 121;
 
             System.out.print("Period (Years): ");
             int years = scanner.nextByte();
             years = years * 12;
 
-            double mortgage = principal * (annualInterestRate * (Math.pow((1 + annualInterestRate), years))
+            double mortgage = principal * ((Math.pow(annualInterestRate * (1 + annualInterestRate), years))
                     / Math.pow((1 + annualInterestRate), years) - 1);
             System.out.println("Mortgage: " + mortgage);
-        } catch (Exception eee) {
-            System.out.println("Error(s): " + eee);
+        } catch (Exception e) {
+            System.out.println("Error: " + e);
         }
 
         scanner.close();

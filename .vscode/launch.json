@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MiddleCharacter",
+      "request": "launch",
+      "mainClass": "MiddleCharacter",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
+      "name": "Arithmetic",
+      "request": "launch",
+      "mainClass": "Arithmetic",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
+      "name": "LexicographicSort",
+      "request": "launch",
+      "mainClass": "LexicographicSort",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
+      "name": "VowelConsonantCounter",
+      "request": "launch",
+      "mainClass": "VowelConsonantCounter",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "HotelCategorizer",
       "request": "launch",
       "mainClass": "HotelCategorizer",
