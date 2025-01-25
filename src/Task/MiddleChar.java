@@ -2,7 +2,7 @@ package Task;
 
 public class MiddleChar {
     public static void main(String[] args) {
-        String words = "amazoing";
+        String words = "mike";
         int len = words.length();
         int middle = len / 2;
         if (len % 2 == 0) {
