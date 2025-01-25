@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "daysInMonth",
+      "request": "launch",
+      "mainClass": "Task.daysInMonth",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "MiddleChar",
       "request": "launch",
       "mainClass": "Task.MiddleChar",
