@@ -14,7 +14,7 @@ public class Main {
         if (len % 2 == 0) {
             System.out.println("Middle Char: " + word.charAt(middle - 1) + word.charAt(middle));
         } else {
-
+            System.out.println("Middle Char: " + word.charAt(middle));
         }
 
     }
