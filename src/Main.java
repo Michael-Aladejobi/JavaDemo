@@ -1,16 +1,13 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int i;
+        int j;
 
-        System.out.println("Please enter a sentecnce: ");
-        String sentence = scanner.nextLine();
-        scanner.close();
-
-        String[] words = sentence.split(" ");
-
-        System.out.println("Number of words: " + words.length);
-
+        for (i = 1; i <= 5; i++) {
+            for (j = 1; j <= 12; j++) {
+                System.out.println("----------------------------");
+                System.out.printf("%d x %d = %d \n", i, j, (i * j));
+            }
+        }
     }
 }
