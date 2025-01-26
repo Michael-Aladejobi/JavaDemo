@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HotelCategorizer",
+      "request": "launch",
+      "mainClass": "Task.HotelCategorizer",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
+      "name": "ExamVenueManagememt",
+      "request": "launch",
+      "mainClass": "Task.ExamVenueManagememt",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "daysInMonth",
       "request": "launch",
       "mainClass": "Task.daysInMonth",

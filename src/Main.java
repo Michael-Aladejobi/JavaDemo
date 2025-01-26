@@ -1,21 +1,29 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter word:");
-        String word = scanner.nextLine();
+        System.out.print("How many numbers do you want to store? : ");
+        int size = scanner.nextInt();
 
-        int len = word.length();
+        int numbers[] = new int[size];
 
-        int middle = len / 2;
+        System.out.println("Please enter numbers: ");
+        for (int i = 0; i < size; i++) {
+            System.out.print("Enter number " + (i + 1) + ": ");
+            numbers[i] = scanner.nextInt();
 
-        if (len % 2 == 0) {
-            System.out.println("Middle Char: " + word.charAt(middle - 1) + word.charAt(middle));
-        } else {
-            System.out.println("Middle Char: " + word.charAt(middle));
         }
 
+        Arrays.sort(numbers);
+
+        System.out.print("Sorted Array: ");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+
+        scanner.close();
     }
 }
