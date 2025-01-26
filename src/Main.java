@@ -8,5 +8,9 @@ public class Main {
         String sentence = scanner.nextLine();
         scanner.close();
 
+        String[] words = sentence.split(" ");
+
+        System.out.println("Number of words: " + words.length);
+
     }
 }
