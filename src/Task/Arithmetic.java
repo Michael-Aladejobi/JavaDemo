@@ -11,6 +11,8 @@ public class Arithmetic {
 
         System.out.print("Enter second number: ");
         float num2 = scanner.nextFloat();
+
+        scanner.close();
         // sum
         float sum = num1 + num2;
         System.out.println("Sum: " + sum);
