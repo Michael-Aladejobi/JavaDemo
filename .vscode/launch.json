@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Variables",
+      "request": "launch",
+      "mainClass": "Variables",
+      "projectName": "JavaProject_52f6579f"
+    },
+    {
+      "type": "java",
       "name": "HotelCategorizer",
       "request": "launch",
       "mainClass": "Task.HotelCategorizer",
