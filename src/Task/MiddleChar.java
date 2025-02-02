@@ -9,7 +9,7 @@ public class MiddleChar {
             System.out.println("middle char: ..." + words.charAt(middle - 1) + words.charAt(middle));
 
         } else {
-            System.out.println("middle char...: " + words.charAt(middle));
+            System.out.println("middle char....: " + words.charAt(middle));
 
         }
     }
